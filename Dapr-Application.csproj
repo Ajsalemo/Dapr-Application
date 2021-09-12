@@ -6,4 +6,8 @@
     <RootNamespace>Dapr_Application</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapr.Client" Version="1.3.0" />
+  </ItemGroup>
+
 </Project>
