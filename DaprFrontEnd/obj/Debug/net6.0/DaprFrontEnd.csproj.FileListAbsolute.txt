@@ -18,3 +18,12 @@ C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\Da
 C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\obj\Debug\net6.0\ref\DaprFrontEnd.dll
 C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\obj\Debug\net6.0\DaprFrontEnd.pdb
 C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\obj\Debug\net6.0\DaprFrontEnd.genruntimeconfig.cache
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Dapr.AspNetCore.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Dapr.Client.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Google.Api.CommonProtos.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\bin\Debug\net6.0\Grpc.Net.Common.dll
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\obj\Debug\net6.0\DaprFrontEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ansalemo\OneDrive - Microsoft\Documents\Code\Github\Dapr-Application\DaprFrontEnd\obj\Debug\net6.0\DaprFrontEnd.csproj.CopyComplete
