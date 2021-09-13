@@ -7,11 +7,20 @@ services:
       context: .
       dockerfile: DaprFrontEnd/Dockerfile
     ports:
-      - "51000:50001"
+      - "8090:8090"
 
   daprfrontend-dapr:
     image: "daprio/daprd:latest"
-    command: ["./daprd", "-app-id", "daprfrontend", "-app-port", "80"]
+    command:
+      [
+        "./daprd",
+        "-app-id",
+        "daprfrontend",
+        "-placement-host-address",
+        "placement:50006",
+        "-app-port",
+        "8090",
+      ]
     depends_on:
       - daprfrontend
     network_mode: "service:daprfrontend"
@@ -22,11 +31,40 @@ services:
       context: .
       dockerfile: DaprBackEnd/Dockerfile
     ports:
-      - "52000:50001"
+      - "8070:8070"
 
   daprbackend-dapr:
     image: "daprio/daprd:latest"
-    command: ["./daprd", "-app-id", "daprbackend", "-app-port", "80"]
+    command:
+      [
+        "./daprd",
+        "-app-id",
+        "daprbackend",
+        "-placement-host-address",
+        "placement:50006",
+        "-app-port",
+        "8070",
+      ]
     depends_on:
       - daprbackend
     network_mode: "service:daprbackend"
+
+  daprdashboard-dapr:
+    image: daprio/dashboard:latest
+    networks:
+      - dapr
+    volumes:
+      - "./components/:/home/nonroot/.dapr/components"
+    ports:
+      - "8080:8080"
+
+
+  placement:
+    image: "daprio/dapr"
+    command: ["./placement", "-port", "50006"]
+    ports:
+      - "50006:50006"
+    networks:
+      - dapr
+networks:
+  dapr:
