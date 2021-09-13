@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZAit9MAemZVbUWkuqAZBtY1/E+AWnlYEn77szKQSTmOTtciWRdnv9EvkRzfn9D8t3cP8ADv3MtCspfOx7h6XIA==",
+  "dgSpecHash": "dCimSUYBW/TcWkMRCcrWuHyyOnFcvcRQDZuzYSL6srbVfKB1GgQtuEpKM69uayH5TRha7rQZ4Csk8Zhdb+ik2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ansalemo\\OneDrive - Microsoft\\Documents\\Code\\Github\\Dapr-Application\\DaprBackEnd\\DaprBackEnd.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\ansalemo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\ansalemo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\ansalemo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\ansalemo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\ansalemo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\ansalemo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.7\\microsoft.netcore.app.host.win-x64.5.0.7.nupkg.sha512"
   ],
   "logs": []
 }
